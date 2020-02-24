@@ -1,0 +1,202 @@
+[max_path=15]
+[Term]
+id: HP:0011049
+name: Agenesis of primary maxillary lateral incisor
+def: "Agenesis of one or more maxillary lateral incisor, comprising the maxillary lateral primary incisor." [HPO:ibailleulforestier]
+synonym: "Absence of deciduous maxillary lateral incisor" RELATED [ORCID:0000-0001-5889-4463]
+synonym: "Absence of primary maxillary lateral incisor" RELATED [ORCID:0000-0001-5889-4463]
+synonym: "Agenesis of deciduous maxillary lateral incisor" EXACT [ORCID:0000-0001-5889-4463]
+synonym: "Failure of development of deciduous maxillary lateral incisor" EXACT [ORCID:0000-0001-5889-4463]
+synonym: "Failure of development of primary maxillary lateral incisor" EXACT [ORCID:0000-0001-5889-4463]
+synonym: "Missing deciduous maxillary lateral incisor" RELATED [ORCID:0000-0001-5889-4463]
+synonym: "Missing primary maxillary lateral incisor" RELATED [ORCID:0000-0001-5889-4463]
+xref: UMLS:C4023568
+xref: UMLS:C4280353
+is_a: HP:0000690 ! Agenesis of maxillary lateral incisor
+created_by: peter
+creation_date: 2011-03-10T11:31:10Z
+
+[Term]
+id: HP:0000690
+name: Agenesis of maxillary lateral incisor
+def: "Agenesis of one or more maxillary lateral incisor, comprising the maxillary lateral primary incisor and maxillary lateral secondary incisor." [HPO:ibailleulforestier]
+synonym: "Absence of maxillary lateral incisor" RELATED [ORCID:0000-0001-5889-4463]
+synonym: "Absence of upper lateral incisor" RELATED layperson [ORCID:0000-0001-5889-4463]
+synonym: "Absent upper lateral incisors" EXACT []
+synonym: "Failure of development of maxillary lateral incisor" EXACT [ORCID:0000-0001-5889-4463]
+synonym: "Missing maxillary lateral incisor" RELATED [ORCID:0000-0001-5889-4463]
+synonym: "Missing upper lateral incisor" RELATED layperson [ORCID:0000-0001-5889-4463]
+xref: UMLS:C1849950
+xref: UMLS:C4083046
+is_a: HP:0200153 ! Agenesis of lateral incisor
+is_a: HP:0200160 ! Agenesis of maxillary incisor
+
+[Term]
+id: HP:0200160
+name: Agenesis of maxillary incisor
+synonym: "Absence of maxillary incisor" RELATED [ORCID:0000-0001-5889-4463]
+synonym: "Absence of upper front tooth" NARROW layperson [ORCID:0000-0001-5889-4463]
+synonym: "Failure of development of maxillary incisor" EXACT [ORCID:0000-0001-5889-4463]
+synonym: "Failure of development of upper incisor" EXACT [ORCID:0000-0001-5889-4463]
+synonym: "Missing upper front tooth" RELATED layperson [ORCID:0000-0001-5889-4463]
+synonym: "Missing upper incisor" RELATED layperson [ORCID:0000-0001-5889-4463]
+xref: UMLS:C4021877
+xref: UMLS:C4280278
+xref: UMLS:C4280279
+is_a: HP:0006485 ! Agenesis of incisor
+
+[Term]
+id: HP:0006485
+name: Agenesis of incisor
+def: "Agenesis of incisor." [HPO:probinson]
+comment: Failure of one or more incisors to develop.
+synonym: "Absence of front tooth" RELATED layperson [ORCID:0000-0001-5889-4463]
+synonym: "Absence of incisors" RELATED layperson []
+synonym: "Failure of development of incisor" EXACT [ORCID:0000-0001-5889-4463]
+synonym: "Missing front tooth" RELATED layperson [ORCID:0000-0001-5889-4463]
+synonym: "Missing incisors" RELATED layperson []
+xref: UMLS:C4020815
+xref: UMLS:C4020816
+xref: UMLS:C4083290
+is_a: HP:0001592 ! Selective tooth agenesis
+is_a: HP:0011064 ! Abnormal number of incisors
+created_by: peter
+creation_date: 2008-03-28T05:49:00Z
+
+[Term]
+id: HP:0011064
+name: Abnormal number of incisors
+def: "The presence of an altered number of the incisor teeth." [HPO:ibailleulforestier]
+synonym: "Abnormal number of front teeth" EXACT layperson [ORCID:0000-0001-5889-4463]
+synonym: "Abnormal number of incisors" EXACT layperson []
+xref: UMLS:C4023554
+is_a: HP:0000676 ! Abnormality of the incisor
+is_a: HP:0006483 ! Abnormal number of teeth
+created_by: peter
+creation_date: 2011-03-10T02:09:16Z
+
+[Term]
+id: HP:0006483
+name: Abnormal number of teeth
+def: "The presence of an altered number of of teeth." [HPO:ibailleulforestier]
+comment: Humans usually have 20 primary teeth (also called deciduous teeth) and 32 permanent teeth. This term comprises anomalies with too many or too few teeth.
+synonym: "Abnormal complement of teeth" EXACT [ORCID:0000-0001-5889-4463]
+synonym: "Abnormal number of teeth" EXACT layperson []
+synonym: "Abnormal tooth count" EXACT layperson [ORCID:0000-0001-5889-4463]
+xref: SNOMEDCT_US:335443002
+xref: UMLS:C1290508
+is_a: HP:0000164 ! Abnormality of the dentition
+created_by: peter
+creation_date: 2008-03-28T05:44:00Z
+
+[Term]
+id: HP:0000164
+name: Abnormality of the dentition
+alt_id: HP:0001567
+alt_id: HP:0006296
+alt_id: HP:0006348
+def: "Any abnormality of the teeth." [HPO:ibailleulforestier]
+comment: Any abnormality of the primary (deciduous) or permanent teeth.
+subset: hposlim_core
+synonym: "Abnormal dentition" EXACT layperson []
+synonym: "Abnormal teeth" EXACT layperson []
+synonym: "Abnormality of the teeth" RELATED layperson []
+synonym: "Dental abnormalities" EXACT layperson []
+synonym: "Dental abnormality" EXACT layperson []
+synonym: "Dental anomalies" EXACT HP:0045078 []
+synonym: "Dental problem" RELATED layperson []
+synonym: "Dental problems" RELATED layperson []
+synonym: "Tooth abnormalities" RELATED layperson []
+xref: MSH:D014071
+xref: SNOMEDCT_US:422775003
+xref: UMLS:C0040427
+xref: UMLS:C0262444
+is_a: HP:0000163 ! Abnormal oral cavity morphology
+
+[Term]
+id: HP:0000163
+name: Abnormal oral cavity morphology
+def: "Abnormality of the oral cavity, i.e., the opening or hollow part of the mouth." [HPO:probinson]
+synonym: "Abnormality of the oral cavity" EXACT layperson []
+xref: UMLS:C4025887
+is_a: HP:0031816 ! Abnormal oral morphology
+
+[Term]
+id: HP:0031816
+name: Abnormal oral morphology
+def: "Any structural anomaly of the mouth, which is also known as the oral cavity." []
+is_a: HP:0000153 ! Abnormality of the mouth
+property_value: http://purl.org/dc/elements/1.1/creator "peter" xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2018-04-29T14:55:47Z xsd:dateTime
+
+[Term]
+id: HP:0000153
+name: Abnormality of the mouth
+def: "An abnormality of the mouth." [HPO:probinson]
+subset: hposlim_core
+synonym: "Abnormal mouth" EXACT layperson [HPO:skoehler]
+synonym: "Abnormality of the mouth" EXACT layperson []
+xref: MSH:D009056
+xref: SNOMEDCT_US:128334002
+xref: UMLS:C0026633
+is_a: HP:0000271 ! Abnormality of the face
+
+[Term]
+id: HP:0000271
+name: Abnormality of the face
+def: "An abnormality of the face." [HPO:probinson]
+subset: hposlim_core
+synonym: "Abnormal face" EXACT layperson [HPO:skoehler]
+synonym: "Abnormality of the countenance" BROAD [ORCID:0000-0001-5889-4463]
+synonym: "Abnormality of the face" EXACT layperson []
+synonym: "Abnormality of the physiognomy" BROAD [ORCID:0000-0001-5889-4463]
+synonym: "Abnormality of the visage" BROAD [ORCID:0000-0001-5889-4463]
+synonym: "Anomaly of face" RELATED [ORCID:0000-0001-5889-4463]
+synonym: "Anomaly of the face" RELATED [ORCID:0000-0001-5889-4463]
+synonym: "Disorder of face" BROAD layperson [ORCID:0000-0001-5889-4463]
+synonym: "Disorder of the face" NARROW layperson [ORCID:0000-0001-5889-4463]
+synonym: "Facial abnormality" EXACT layperson [ORCID:0000-0001-5889-4463]
+synonym: "Facial anomaly" RELATED [ORCID:0000-0001-5889-4463]
+xref: SNOMEDCT_US:118930001
+xref: SNOMEDCT_US:32003007
+xref: SNOMEDCT_US:398206004
+xref: SNOMEDCT_US:398302004
+xref: UMLS:C0266617
+xref: UMLS:C1290857
+xref: UMLS:C4025871
+is_a: HP:0000234 ! Abnormality of the head
+
+[Term]
+id: HP:0000234
+name: Abnormality of the head
+def: "An abnormality of the head." [HPO:probinson]
+synonym: "Abnormal head" EXACT layperson [HPO:skoehler]
+synonym: "Abnormality of the head" EXACT layperson []
+synonym: "Head abnormality" EXACT layperson []
+xref: UMLS:C4021812
+is_a: HP:0000152 ! Abnormality of head or neck
+
+[Term]
+id: HP:0000152
+name: Abnormality of head or neck
+def: "An abnormality of head and neck." [HPO:probinson]
+synonym: "Abnormality of head or neck" EXACT layperson []
+synonym: "Head and neck abnormality" EXACT layperson []
+xref: UMLS:C4021817
+is_a: HP:0000118 ! Phenotypic abnormality
+
+[Term]
+id: HP:0000118
+name: Phenotypic abnormality
+def: "A phenotypic abnormality." [HPO:probinson]
+comment: This is the root of the phenotypic abnormality subontology of the HPO.
+synonym: "Organ abnormality" EXACT []
+xref: UMLS:C4021819
+is_a: HP:0000001 ! All
+
+[Term]
+id: HP:0000001
+name: All
+comment: Root of all terms in the Human Phenotype Ontology.
+xref: UMLS:C0444868
+
