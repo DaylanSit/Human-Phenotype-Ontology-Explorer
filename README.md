@@ -3,9 +3,9 @@ Software tool that allows user to query the Human Phenotype Ontology, which cont
 
 
 # Files
-- A class Term to keep track of each of the concepts (i.e., terms) defined in the ontology.
-- A class Query to store input queries and their results.
-- A main driver class HPOExplorer to: 
+- A class 'Term.java' to keep track of each of the concepts (i.e., terms) defined in the ontology.
+- A class 'Query.java' to store input queries and their results.
+- A main driver class 'HPOExplorer.java' to: 
   1. Read the ontology’s text file, parse it and build the data structures that support exploring it
   2. Read a set of queries from a text file and produce the applicable results in another formatted text file
   3. Produce a text file displaying the results of a general query on the entire ontology
