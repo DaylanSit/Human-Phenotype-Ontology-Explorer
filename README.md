@@ -2,7 +2,7 @@
 Software tool that allows user to query the Human Phenotype Ontology, which contains a formal representation of the manifestation of diseases in the different human phenotypes organized as an acyclic graph 
 
 
-# Files
+# Classes
 - A class 'Term.java' to keep track of each of the concepts (i.e., terms) defined in the ontology.
 - A class 'Query.java' to store input queries and their results.
 - A main driver class 'HPOExplorer.java' to: 
